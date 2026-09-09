@@ -161,6 +161,14 @@ This directory contains deep-dive internal architecture specifications, mechanic
     - Automated `dn test` and `dn build` verification workflows.
     - GitHub Actions CI/CD configuration YAML for automated DartNative builds.
 
+23. [**Code Push Patching & Kernel Diffing Mechanics**](docs/23_code_push_patching_and_kernel_diffing.md)
+    - Byte-level Dart Kernel (`.dill`) AST differential engine mechanics.
+    - Ed25519 digital signature verification and client-side patch application.
+    - Automatic rollback safety mechanisms for startup crash guards.
+
+24. [**Framework Technical Glossary & Master Index**](docs/24_complete_framework_glossary_and_index.md)
+    - Exhaustive technical glossary of DartNative framework terminology, C-ABI FFI handles, CLI tools, and licensing terms.
+
 ---
 
 ## Getting Started
