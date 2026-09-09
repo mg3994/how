@@ -142,6 +142,16 @@ This directory contains deep-dive internal architecture specifications, mechanic
     - Multi-language localization pipeline via `dartnative_intl` and ARB files.
     - Dynamic font registration using `DartNativeFontRegistrant`.
 
+19. [**Security, Sandboxing & Code Signing Architecture**](docs/19_security_sandboxing_and_code_signing.md)
+    - OS application sandboxing boundaries on iOS and Android.
+    - Hardware security storage using `dartnative_secure_storage` (Keychain & KeyStore).
+    - Cryptographic Ed25519 patch signature verification for Code Push OTA updates.
+
+20. [**Architecture Deep-Dive Summary & Developer Cheat Sheet**](docs/20_architecture_deep_dive_summary_and_cheat_sheet.md)
+    - Consolidated framework comparison matrix (DartNative vs Flutter vs React Native).
+    - `dn` CLI command reference cheat sheet.
+    - Quick Flutter-to-DartNative API migration reference table.
+
 ---
 
 ## Getting Started
