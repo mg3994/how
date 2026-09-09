@@ -79,6 +79,23 @@ This directory contains deep-dive internal architecture specifications, mechanic
    - Comprehensive first-party plugin ecosystem catalog (`dartnative_sqlite`, `dartnative_video_player`, `dartnative_camera`, etc.).
    - Flutter-to-DartNative migration guide and package replacement matrix.
 
+7. [**End-to-End Application Building & Compilation Pipeline**](docs/07_end_to_end_app_building_and_compilation.md)
+   - JIT Debug mode vs AOT Release mode compilation mechanics.
+   - `gen_snapshot` parameters, `App.framework`, and `libapp.so` binary layout.
+   - Platform build system integration (`xcode_backend.sh` & `draft-gradle-plugin`).
+   - Debug vs Release binary payload, symbol stripping, and cold start performance.
+
+8. [**Building a Custom Native FFI Plugin**](docs/08_building_a_custom_plugin.md)
+   - Directory structure for custom native FFI plugins.
+   - Writing C-ABI interface wrappers in Objective-C (iOS) and C/C++ (Android).
+   - Dynamic library symbol resolution in Dart using `DynamicLibrary.process()`.
+   - Synchronous FFI bindings vs async event streaming using Dart Isolate Ports (`Dart_PostCObject`).
+
+9. [**Practical App Walkthrough: Real-Time Chat & Media App**](docs/09_practical_app_walkthrough_chat_screen.md)
+   - Complete production-grade application architecture.
+   - Integration of `FastList` recycling, `Scaffold.bottomInputBar` keyboard animation tracking, and iOS 26 Liquid Glass.
+   - Local persistence via `dartnative_sqlite` and offline speech using `dartnative_supertonic_tts`.
+
 ---
 
 ## Getting Started
