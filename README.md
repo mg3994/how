@@ -132,6 +132,16 @@ This directory contains deep-dive internal architecture specifications, mechanic
     - 60Hz / 120Hz ProMotion VSYNC frame pacing budget analysis (3.6ms per frame).
     - Memory profiling best practices and Native Instruments profiling.
 
+17. [**Troubleshooting Guide & Common Pitfalls**](docs/17_troubleshooting_and_common_pitfalls.md)
+    - Comprehensive troubleshooting matrix for white screens, FFI symbol lookup errors, and keyboard overlaps.
+    - White screen decision tree diagnostic flow.
+    - iOS project surgery checklist for in-place Flutter app migrations.
+
+18. [**Native Accessibility & Internationalization (l10n)**](docs/18_internationalization_and_accessibility.md)
+    - Native platform accessibility lowering (VoiceOver & TalkBack) with zero virtual bridge overhead.
+    - Multi-language localization pipeline via `dartnative_intl` and ARB files.
+    - Dynamic font registration using `DartNativeFontRegistrant`.
+
 ---
 
 ## Getting Started
