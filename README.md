@@ -152,6 +152,15 @@ This directory contains deep-dive internal architecture specifications, mechanic
     - `dn` CLI command reference cheat sheet.
     - Quick Flutter-to-DartNative API migration reference table.
 
+21. [**Custom Native Views & Platform View Embedding**](docs/21_custom_native_views_and_platform_views.md)
+    - Zero-layer platform view embedding inside Yoga flexbox trees using `PlatformView`.
+    - Writing custom Swift/Objective-C view factories and native gesture touch event routing.
+
+22. [**Testing & CI/CD Automation Pipelines**](docs/22_testing_and_ci_cd_pipelines.md)
+    - Testing hierarchy (Unit testing, signal store testing, element reconciliation tests).
+    - Automated `dn test` and `dn build` verification workflows.
+    - GitHub Actions CI/CD configuration YAML for automated DartNative builds.
+
 ---
 
 ## Getting Started
