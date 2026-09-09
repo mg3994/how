@@ -96,6 +96,22 @@ This directory contains deep-dive internal architecture specifications, mechanic
    - Integration of `FastList` recycling, `Scaffold.bottomInputBar` keyboard animation tracking, and iOS 26 Liquid Glass.
    - Local persistence via `dartnative_sqlite` and offline speech using `dartnative_supertonic_tts`.
 
+10. [**Debugging, Logging & Hot Reload Architecture**](docs/10_debugging_logging_and_hot_reload.md)
+    - Hot Reload vs Hot Restart internal execution pipelines.
+    - Embedded Dart VM Service WebSocket protocol and DevTools integration.
+    - Native platform logging hooks (`NSLog` / `android.util.Log`).
+    - Debug troubleshooting matrix for white screen, layout, and plugin issues.
+
+11. [**Advanced Media & Hardware Platform Integration**](docs/11_advanced_media_and_hardware_integration.md)
+    - Hardware camera stream embedding (`dartnative_camera`).
+    - Hardware-accelerated video playback (`dartnative_video_player`).
+    - Vector Lottie animations (`dartnative_lottie`), Google Maps (`dartnative_google_maps`), and Social Sign-In (`dartnative_social_sign_in`).
+
+12. [**Low-Level Custom Graphics & Skia Runtime Shaders**](docs/12_native_canvas_and_skia_shaders.md)
+    - CoreGraphics & `android.graphics.Canvas` context drawing (`CustomPaint`).
+    - GPU Skia engine integration (`CanvasSurface` & `dartnative_skia`).
+    - Custom SkSL runtime fragment shaders (`RuntimeEffect`).
+
 ---
 
 ## Getting Started
