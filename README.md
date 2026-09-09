@@ -112,6 +112,11 @@ This directory contains deep-dive internal architecture specifications, mechanic
     - GPU Skia engine integration (`CanvasSurface` & `dartnative_skia`).
     - Custom SkSL runtime fragment shaders (`RuntimeEffect`).
 
+13. [**`flutter_tools` Modifications & Flutter Zero Core Adaptations**](docs/13_flutter_tools_and_zero_modifications.md)
+    - Analysis of modifications inside `packages/flutter_tools`.
+    - Telemetry kill switches, mobile scope restriction, and manifest rebrand parsing (`dartnative:` section).
+    - Code Push CLI integration, private registry overrides (`dartpub.dev`), and `DN_*` build setting parameters.
+
 ---
 
 ## Getting Started
