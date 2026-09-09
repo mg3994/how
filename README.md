@@ -117,6 +117,21 @@ This directory contains deep-dive internal architecture specifications, mechanic
     - Telemetry kill switches, mobile scope restriction, and manifest rebrand parsing (`dartnative:` section).
     - Code Push CLI integration, private registry overrides (`dartpub.dev`), and `DN_*` build setting parameters.
 
+14. [**Internal FFI Bridge & Memory Management**](docs/14_internal_ffi_bridge_and_memory_management.md)
+    - Low-level C/C++ FFI pointer mechanics and `Pointer<Void>` handles.
+    - Memory lifecycle synchronization: Dart GC vs Native ARC Reference Counting.
+    - `NativeFinalizer` safety nets and zero-copy buffer passing (`Pointer<Uint8>`).
+
+15. [**Deep Dive: Flutter Zero & Engine Fork Architecture**](docs/15_deep_dive_flutter_zero_and_engine_fork.md)
+    - Stripping Flutter's Impeller/Skia LayerTree and DisplayList rasterizers.
+    - Engine binary size savings (~4MB stripped core).
+    - Window attachment and `DartNativeViewController` / `DartNativeActivity` mounting.
+
+16. [**Performance Benchmarks & Profiling Analysis**](docs/16_performance_benchmarks_and_profiling.md)
+    - Cold start latency (~190ms) and idle memory footprint benchmarks (~22MB RAM).
+    - 60Hz / 120Hz ProMotion VSYNC frame pacing budget analysis (3.6ms per frame).
+    - Memory profiling best practices and Native Instruments profiling.
+
 ---
 
 ## Getting Started
