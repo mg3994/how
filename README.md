@@ -188,6 +188,10 @@ This directory contains deep-dive internal architecture specifications, mechanic
     - Local storage tier selection (`dartnative_sqlite`, `dartnative_hive`, `dartnative_shared_preferences`, `dartnative_secure_storage`).
     - Offline-first repository pattern with reactive signals and SQLite local persistence.
 
+30. [**Future Roadmap & Sunset Commitment Developer Handbook**](docs/30_future_roadmap_and_sunset_commitment_handbook.md)
+    - Future engine evolution priorities (macOS AppKit/WinUI 3 targets, NPU acceleration, Wasm WebGPU).
+    - Section 4 legal Sunset Commitment provisions and BSD 3-Clause source release activation procedures.
+
 ---
 
 ## Getting Started
