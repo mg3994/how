@@ -171,10 +171,22 @@ This directory contains deep-dive internal architecture specifications, mechanic
 
 25. [**DartNative vs Flutter: Deep Per-Widget API Diff & Porting Reference**](docs/25_dartnative_vs_flutter_deep_api_diff.md)
     - Comprehensive per-widget API differences and mapping rules between Flutter and DartNative.
-    - Offstage unmounting warnings, PageRoute native transition enums, and asset loading.
+    - Offstage unmounting warnings, PageRoute native transition enums (`RouteTransition`), and asset loading.
 
 26. [**Community & Ecosystem Plugin Publishing Playbook**](docs/26_community_and_ecosystem_playbook.md)
     - Authoring community FFI plugins, token-authenticated `dn publish` flows, and `pubspec.yaml` manifest schemas for dartpub.dev.
+
+27. [**Device Info Kit & Hardware Capabilities Integration**](docs/27_device_info_kit_and_hardware_capabilities.md)
+    - Synchronous system hardware inspection via `device_info_kit` (mg3994/device_info_kit).
+    - Reading iOS and Android OS versioning, model strings, and hardware RAM capabilities without async method channels.
+
+28. [**Hero Stories & Native Shared Element Animations**](docs/28_hero_stories_and_advanced_animations.md)
+    - Shared element native view transitions across route boundaries using `Hero`.
+    - Collapsing `AppBar.largeTitle` transitions and `AppBar.searchBar` native search choreography.
+
+29. [**Storage, Caching & Offline-First Architecture**](docs/29_storage_caching_and_offline_first_architecture.md)
+    - Local storage tier selection (`dartnative_sqlite`, `dartnative_hive`, `dartnative_shared_preferences`, `dartnative_secure_storage`).
+    - Offline-first repository pattern with reactive signals and SQLite local persistence.
 
 ---
 
