@@ -169,6 +169,13 @@ This directory contains deep-dive internal architecture specifications, mechanic
 24. [**Framework Technical Glossary & Master Index**](docs/24_complete_framework_glossary_and_index.md)
     - Exhaustive technical glossary of DartNative framework terminology, C-ABI FFI handles, CLI tools, and licensing terms.
 
+25. [**DartNative vs Flutter: Deep Per-Widget API Diff & Porting Reference**](docs/25_dartnative_vs_flutter_deep_api_diff.md)
+    - Comprehensive per-widget API differences and mapping rules between Flutter and DartNative.
+    - Offstage unmounting warnings, PageRoute native transition enums, and asset loading.
+
+26. [**Community & Ecosystem Plugin Publishing Playbook**](docs/26_community_and_ecosystem_playbook.md)
+    - Authoring community FFI plugins, token-authenticated `dn publish` flows, and `pubspec.yaml` manifest schemas for dartpub.dev.
+
 ---
 
 ## Getting Started
